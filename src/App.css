@@ -1,0 +1,22 @@
+.app-wrapper {
+  display: grid;
+
+  grid-template-areas:
+    "h h"
+    "n c";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.app-wrapper-content {
+  box-shadow: 0 0 7px #666;
+  border-radius: 20px;
+  grid-area: c;
+  padding: 15px;
+  background: linear-gradient(rgba(120, 134, 203, 0.737) 0 0),
+    rgb(255, 255, 255);
+  background-size: 60px 60px;
+  margin-right: 3px;
+}

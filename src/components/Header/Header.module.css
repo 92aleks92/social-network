@@ -1,0 +1,33 @@
+.header {
+  display: inline;
+  background-size: 100%;
+  grid-area: h;
+  background-color: rgb(237, 228, 228);
+  padding: 6px;
+  border-radius: 20px;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  box-shadow: 0 0 7px #666;
+
+  background: linear-gradient(rgba(120, 134, 203, 0.737) 0 0),
+    radial-gradient(rgb(142, 49, 49) 20%, transparent 16%),
+    radial-gradient(rgb(243, 215, 4) 15%, transparent 16%) 30px 30px,
+    rgb(68, 56, 209);
+}
+
+.header img {
+  border-radius: 21px;
+  margin-bottom: 6px;
+  width: 43px;
+  height: 44px;
+}
+
+.login {
+  float: right;
+}
+
+.login a {
+  color: white;
+  text-decoration: none;
+}
